@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #FFF500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color: #E5922A;
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    height: auto;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.formLogin input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #FFF500;
+    color: #333;
+}
+
+.formLogin input:focus {
+    outline: 2px solid #fdd835;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #FFF500;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FDD835;
+    transform: scale(1.05);
+}
+
+.extra-options {
+    margin-top: 20px;
+}
+
+.extra-options a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.extra-options .divider {
+    margin: 10px 0;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.register-link {
+    background-color: #FFF500;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #444;
+    font-size: 14px;
+}
+
+.register-link:hover {
+    background-color: #fdd835;
+}
